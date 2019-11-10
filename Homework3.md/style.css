@@ -1,0 +1,54 @@
+*
+h1{
+  color: white;
+}
+h2{
+  text-align: center;
+}
+header {
+  text-align: center;
+  padding: 20px;
+}
+.title {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body {
+  font-family: sans-serif;
+  background-image: url(./images/circle-blues.png);
+}
+button[disabled] {
+  cursor: default;
+  background: #c0c7cf;
+}
+.clipboard {
+  float: right;
+  cursor: default;
+}
+.card {
+  border-width: 1px;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+}
+.card-body {
+  min-height: 100px;
+}
+#password {
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 85px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: none;
+  border-radius: 6px;
+}
+
+
